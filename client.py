@@ -1,10 +1,10 @@
 import socket
-import time
+iimport time
 TCP_IP = '184.164.228.4'
 TCP_PORT = 5005
 BUFFER_SIZE = 1024
 # MESSAGE = "Hello, World!"
-f = open("message.txt")
+f = open("/client/thesis/message.txt")
 MESSAGE = f.read()
 f.close()
 
