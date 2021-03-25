@@ -1,5 +1,5 @@
 import socket
-iimport time
+import time
 TCP_IP = '184.164.228.4'
 TCP_PORT = 5005
 BUFFER_SIZE = 1024
