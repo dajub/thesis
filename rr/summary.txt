@@ -1,0 +1,8 @@
+1 arg remaining, starting with 'tcpdumpoutput.pcap'
+Ostermann's tcptrace -- version 6.6.7 -- Thu Nov  4, 2004
+
+15072 packets seen, 15072 TCP packets traced
+elapsed wallclock time: 0:00:00.047846, 315010 pkts/sec analyzed
+trace file elapsed time: 0:00:11.353555
+TCP connection info:
+  1: 172.17.0.2:35960 - 184.164.228.4:5005 (a2b) 7477> 7595<
