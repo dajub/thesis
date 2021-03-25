@@ -1,6 +1,7 @@
 echo "running server in background..."
 python2 /client/thesis/server.py &
 echo "running tcpdump in background..."
+echo "***Make sure tap given as command line arg***"
 tcpdump -i $1 'dst 184.164.228.4 and port 5005 and tcp' or 'src 184.164.228.4 and tcp and port 5005' -w tcpdumpoutput.pcap &
 echo "sleeping for 50 seconds"
 sleep(50)
