@@ -1,0 +1,7 @@
+1 arg remaining, starting with 'tcpdumpoutput.pcap'
+Ostermann's tcptrace -- version 6.6.7 -- Thu Nov  4, 2004
+
+0 packets seen, 0 TCP packets traced
+elapsed wallclock time: 0:00:00.000128, 0 pkts/sec analyzed
+trace file elapsed time: 0:00:00.000000
+no traced TCP packets

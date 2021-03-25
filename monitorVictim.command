@@ -21,4 +21,4 @@ echo "1"
 pkill tcpdump
 pkill python2
 echo "done monitoring.\nAnalyzing..."
-./analyze.command $2 $3
+./analyzeVictim.command $1
