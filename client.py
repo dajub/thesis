@@ -15,14 +15,12 @@ def makeSocket():
     s.connect((TCP_IP, TCP_PORT))
     print 'connected'
     while True:
-#    s.connect((TCP_IP,TCP_PORT))
         s.send(MESSAGE)
         data = s.recv(BUFFER_SIZE)
-       # print "received data:", data
+        print "received data:", data
        # time.sleep(0.5)
-    print 'sent'
-    data = s.recv(BUFFER_SIZE)
-    print "received data:", data
+
+
 print "going to try. . . "
 try: makeSocket()
 except socket.error:
