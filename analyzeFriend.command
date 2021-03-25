@@ -1,6 +1,8 @@
 #!/bin/bash
 tcptrace -nZ --output_dir="tcptraceOutputs" tcpdumpoutput.pcap > summary.txt
-mkdir data$2kbs
-mv ./tcptraceOutputs ./data$2kbs
+mkdir $1
+mv ./tcptraceOutputs ./$
 mv summary.txt ./$1
-mv tcpdumpoutput.pcap ./data$2kbs
+mv tcpdumpoutput.pcap ./$1
+mv beforeAttackRoute ./$1
+mv afterAttackRoute ./$1
